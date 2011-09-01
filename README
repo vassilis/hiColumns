@@ -8,7 +8,9 @@ Usage
 		$('table').hiColumns();
 	})
 </script>
-
+<style>
+     td.highlighted{background:gold;}
+</style>
 
 
 Options
