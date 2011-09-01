@@ -1,1 +1,23 @@
-A very simple jQuery plugin which adds a css class in HTML table columns when the user mouseovers the column heading.
+Usage
+
+<script type="text/javascript" src="/path/to/jquery-latest.js"></script>
+<script type="text/javascript" src="/path/to/jquery.hiColumns.js"></script>
+
+<script>
+	$(function(){
+		$('table').hiColumns();
+	})
+</script>
+
+
+
+Options
+
+<script>
+	$(function(){
+		$('#table').hiColumns({
+			select: 'th',
+			klass: 'highlighted'
+		});
+	})
+</script>
