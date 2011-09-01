@@ -2,7 +2,7 @@
 	$.fn.hiColumns = function(options){
 		var defaults = {
 			select: 'th',
-			klass: 'highlighted',
+			klass: 'highlighted'
 		},
 		options = $.extend({}, defaults, options);
 
